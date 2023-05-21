@@ -1,0 +1,137 @@
+*{
+    font-family:'Roboto Slab', serif;
+}
+
+#cabecalho {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+body {
+    background-color: #6babd1d2;
+}
+
+#produtos, #promocoes {
+    padding-bottom: 10px;
+}
+
+.container>h1 {
+    background: linear-gradient(#4D8FF7, #d700ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link.active {
+    color: #Fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.price {
+    margin-bottom: 5px;
+}
+
+.container>h2 {
+    padding: 16px 0;
+    background: linear-gradient(#055ff1, #c10a0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+#promocoes {
+    background-color: #3bb253;
+}
+
+#enviar {
+    margin-top: 16px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+#mensagem {
+    height: 120px;
+    resize: none;
+}
+
+label.error {
+    color: #c10a0a;
+    word-break: break-all;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: #061e46;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    #menu {
+        padding-top: 10px;
+    }
+
+    .row {
+        display: block;
+    }
+    
+    .col-4 {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    #menu {
+        padding-top: 10px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+        row-gap: 1%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 36px;
+    }
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Eletrônicos</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>EBAC Eletrônicos</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills" >
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-flex w-100 " src="imagens/baner1.JPG" />
+                        <div class="carousel-caption">
+                            <h2>Tablets</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-flex w-100" src="imagens/baner2.JPG" />
+                        <div class="carousel-caption">
+                            <h2>Notebooks</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-flex w-100" src="imagens/baner3.JPG" />
+                        <div class="carousel-caption">
+                            <h2>Smartphones</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active" ></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h2>Produtos</h2>
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Tablets</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Notebooks</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Smartphones</button>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="aba1">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungGalaxyTabS6.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy Tab S6
+                                            </h4>
+                                            <p class="card-text">
+                                                Tablet Samsung Galaxy Tab A8 X200 com Tela 10.5", 64GB, WiFi, Câmera Traseira 8MP, Android 11 e Processador Octa-Core - Grafite.
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 1.499,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/TabletSamsungGalaxyTabA7.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy Tab A7
+                                            </h4>
+                                            <p class="card-text">
+                                                Tablet Samsung Galaxy Tab A7 Lite Grafite 32GB Tela 8.7" 3GB RAM Câmera 8MP 4G Bateria 5100mAh Tablet Samsung Galaxy Tab A7
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 899,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungGalaxyTabA6.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy Tab A6
+                                            </h4>
+                                            <p class="card-text">
+                                                Tablet Samsung Galaxy Tab A6, 10.1", SM-P585M, 16GB, Wifi + 4G, Preto Processador: Octa Core 1.6Ghz Tablet Samsung Galaxy Tab A6, 10.1"
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 799,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/iPad8geração.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                iPad 10,2" 8ª geração
+                                            </h4>
+                                            <p class="card-text">
+                                                iPad 10,2" 8ª geração Apple Wi-Fi 32GB Com o chip A12 Bionic, você tem potência de sobra para os apps mais importantes e jogos envolventes
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 2.199,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aba2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/NotebookSamsungF30.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Notebook Samsung F30
+                                            </h4>
+                                            <p class="card-text">
+                                                Notebook Samsung F30 13.3" Intel Celeron 4GB/64GB Windows 10. O Samsung Notebook F30 é um dispositivo de estilo único.
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 3.199,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/NotebookSamsungDualCore.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Notebook Samsung Dual Core
+                                            </h4>
+                                            <p class="card-text">
+                                                Notebook Samsung Book Intel® Core™ i3-1115G4, Windows 11 Home, 4GB, 256GB SSD, 15.6" Full HD LED Cinza Chumbo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 1.799,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungBookCorei5.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Book Core i5
+                                            </h4>
+                                            <p class="card-text">
+                                                Notebook Samsung Book Core i5-10210U Memória 8GB HD ssd 240GB Tela 15,6 Pol Windows 10 10ª Geração Book Core i5-10210U Memória 8GB.
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 4.799,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungBookX20.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Book X20
+                                            </h4>
+                                            <p class="card-text">
+                                                Notebook Samsung Book X20 Np550 Core I5-10210u Memoria 20gb Hd 1tb Ssd 512gb Tela 15.6' Fhd Windows 10 Home Prata
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 3.199,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aba3">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/GalaxyJ6Plus.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy J6 Plus
+                                            </h4>
+                                            <p class="card-text">
+                                                Galaxy J6 Plus 32GB Azul Celular Samsung Desbloqueado Dual-Sim
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 499,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungGalaxyA03.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy A03
+                                            </h4>
+                                            <p class="card-text">
+                                                Celular Smartphone Samsung Galaxy A03 4G Octacore 2Gb Ram 32Gb - Cobre
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 899,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungGalaxyA14.jpg" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy A14
+                                            </h4>
+                                            <p class="card-text">
+                                                Samsung Galaxy A14 128GB Prata 5G Octa-Core 4GB RAM 6,6" Câm. Tripla + Selfie 13MP
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 1.099,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="imagens/SamsungGalaxyM23.png" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Samsung Galaxy M23
+                                            </h4>
+                                            <p class="card-text">
+                                                Celular Smartphone Samsung Galaxy M23 5G Octacore 6G Ram 128Gb - Azul
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 2.099,90</strong>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <h2>Promoções</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="imagens/NotebookSamsungDualCorePromo.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Notebook Samsung Dual Core
+                                </h4>
+                                <p class="card-text">
+                                    Notebook Samsung Dual Core 4 GB DDR4 2666 MHz 32 GB 500 GB 5400 RPM Intel® UHD Graphics
+                                </p>
+                                <div class="price">
+                                    De <del> R$ 1.999,90</del>
+                                    <strong> por R$ 1.799,90</strong>
+                                </div>
+                                <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="imagens/NotebookSamsungGalaxyBookSPromo.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Samsung Galaxy Book S
+                                </h4>
+                                <p class="card-text">
+                                    Notebook Samsung Galaxy Book S, Intel Core i5-L16G7, 8GB RAM, SSD 256GB
+                                </p>
+                                <div class="price">
+                                    De <del> R$ 6.299,99</del>
+                                    <strong> por R$ 5.899,90</strong>
+                                </div>
+                                <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="imagens/AppleIphone14ProMax128GB.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Apple Iphone 14 PRO MAX 128GB
+                                </h4>
+                                <p class="card-text">
+                                    O Apple iPhone 14 Pro Max é um smartphone iOS com características inovadoras
+                                </p>
+                                <div class="price">
+                                    De <del> R$ 10.489,90</del>
+                                    <strong> por R$ 9.049,90</strong>
+                                </div>
+                                <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="imagens/AppleiPadAir5Gen.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Apple iPad Air 5 Gen
+                                </h4>
+                                <p class="card-text">
+                                    Apple iPad Air 5 Gen 256gb WiFi Tela 10.9 pol Púrpura Sem fio Wi-Fi e Bluetooth iPadOS 15.
+                                </p>
+                                <div class="price">
+                                    De <del> R$ 6.299,90</del>
+                                    <strong> por R$ 5.399,90</strong>
+                                </div>
+                                <button type="button" class="btn btn-primary" id="tenho-interesse">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label class="form-label" for="nome">Nome:</label>
+                    <input class="form-control" type="text" name="nome" id="nome" required />
+
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input class="form-control" type="email" name="email" id="email" required />
+
+                    <label for="text" class="form-label">Telefone:</label>
+                    <input class="form-control" type="tel" name="telefone" id="telefone" required />
+
+                    <label for="text" class="form-label" id="">Interesse em:</label>
+                    <input class="form-control" type="text" name="interesse" id="interesse" />
+
+                    <label for="mensagem" class="form-label">Sua mensagem:</label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" ></textarea>
+
+                    <button id="enviar" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>
+                2023 &copy; EBAC Eletrônicos - Todos os direitos reservados
+            </p>
+            <ul>
+                <li>
+                    <a href="https://github.com/RamonSilvab" target="_blank">
+                        <img src="imagens/facebook.png" alt="icone facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RamonSilvab" target="_blank">
+                        <img src="imagens/instagram.png" alt="icone instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RamonSilvab" target="_blank">
+                        <img src="imagens/youtube.png" alt="icone youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_PT.min.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
